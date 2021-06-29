@@ -507,6 +507,85 @@ font-size: x-large;
     display: none;
 }
 
+@media screen and (max-width:420px){
+    .home-smaller-device{
+        margin-top:350px;
+    }
+    .home-smaller-device p{
+        font-size: 35px !important;
+    }     
+    .home-smaller-device .home-button{
+        margin-top: 50px !important;
+    }
+    .cover-text{
+        font-size: 36px !important;
+        margin-top:350px !important;
+    }
+    .home-button{
+        width: 150px;
+        height: 60px;
+        margin: 30px 0px 0px 15px !important;
+    }
+    .navlogo{
+        width: 50%;
+    }
+    #section2-text1{
+        font-size: 22px !important;
+    }
+    #section2-text3{
+        font-size: 13px !important;
+        text-align: center !important;
+        margin-left: 110px !important;
+    }
+    .section3-text{
+       width: 90% !important;
+    }
+    #section3-text2{
+        width: 100% !important;
+    }
+    .mobile-section{
+        height: auto;
+    }
+    .section-images p{
+        font-size: 13px !important;
+    }
+    .mobile-text h1{
+        font-size: 24px !important;
+    }
+    .mobile-text p{
+        font-size: 13px !important;
+    }
+    .list ul{
+        padding-left: 0px !important;
+    }
+    .list li{
+        margin:0px !important;
+        margin-right: 6px !important;
+    }
+    .list a{
+        font-size: 14px !important;
+    }
+    .post{        
+        height: 205px !important;
+    }
+    .post p{
+        font-size:12px !important ;
+    }
+    .user-img{
+        padding-left: 5px !important;
+    }
+    .footer-newsletter{
+        width: 80% !important;
+    }
+    .footer-newsletter p{
+        width: 100% !important;
+    }
+    .feed-images img{
+        width: 50px !important;
+    }
+    
+}
+
 /*Mobile phones*/
 @media screen and (max-width:767px){
 
@@ -574,6 +653,9 @@ font-size: x-large;
     .section3-list ul{
         text-align: center;
     }
+    .section3-list li{
+        margin: 5px 10px 0px 0px !important;
+    }
 
     
     #section3-text2{
@@ -591,14 +673,15 @@ font-size: x-large;
         width: 100%;
     }
     .footer-newsletter{
-        width: 70% !important;
+        width: 90% !important;
     }
     .footer-newsletter input{
-        width: 400px !important;
+        width: 70vw !important;
     }
     .footer-newsletter button{
-        width: 170px !important;
+        width: 25vw !important;
         margin-left: 0px ;
+        font-size: 15px;
     }
     .footer-newsletter p{
         font-size: 13px;
@@ -610,14 +693,15 @@ font-size: x-large;
     }
 
     .feed-images{
-        width: 250px;
+        width: 90vw !important;
     }
     .feed-images img {
-        margin: 0px 50px 0px 3px !important;
+        margin: 0px 20px 0px 3px !important;
     }
     .post{
         width: 80% !important;
         margin-left: 40px !important;
+        margin-top: 50px !important;
     }
     .btn{
         width: 200px !important;
@@ -907,5 +991,3 @@ font-size: x-large;
     }
 
 }
-
-
